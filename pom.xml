@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.seda.payer.allineamentogateways</groupId>
 	<artifactId>com.seda.payer.allineamentogateways</artifactId>
-	<version>1.0</version>
+	<version>1.1.0</version>
 	<name>com.seda.payer.allineamentogateways</name>
 	<description>com.seda.payer.allineamentogateways</description>
 
    <parent>
       <groupId>it.maggioli.informatica.base.pom</groupId>
       <artifactId>pagonet-base</artifactId>
-      <version>1.4.0</version> <!-- LP 20240905 - PAGONET-604 -->
+      <version>1.5.0</version> <!-- LP 20240905 - PAGONET-604 -->
       <relativePath/>
    </parent>
 
@@ -80,7 +80,7 @@
 		<dependency>
 			<groupId>com.seda.payer.core</groupId>
 			<artifactId>com.seda.payer.core</artifactId>
-			<version>2.17.2</version>
+			<version>2.19.0</version>
 			<scope>compile</scope>
 		</dependency>
 		<!-- fine LP 20240905 - PAGONET-604 -->
@@ -93,7 +93,7 @@
 		<dependency>
 			<groupId>com.seda.payer.gateways.webservice.client</groupId>
 			<artifactId>com.seda.payer.gateways.webservice.client</artifactId>
-			<version>1.1.0</version> <!-- LP 20240905 - PAGONET-604 -->
+			<version>1.2.0</version> <!-- LP 20240905 - PAGONET-604 -->
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
